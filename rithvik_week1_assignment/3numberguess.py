@@ -1,9 +1,9 @@
 import random
 R=random.randint(1,100)
 print("guess a number between 1 to 100")
-def my_guess(guess):
 
-    x=0
+
+x=0
 while x==0:
     x=0
     guess=int(input("enter a number u guessed "))
